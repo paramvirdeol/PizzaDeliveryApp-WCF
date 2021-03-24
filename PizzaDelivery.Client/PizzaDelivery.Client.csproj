@@ -81,6 +81,7 @@
   <ItemGroup>
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="OrderItemModel.cs" />
+    <Compile Include="PizzaServiceProxy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

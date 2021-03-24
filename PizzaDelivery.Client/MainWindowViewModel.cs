@@ -68,7 +68,8 @@ namespace PizzaDelivery.Client
         {
             if (_currentOrder.CustomerId != Guid.Empty && _currentOrder.OrderItems.Count > 0)
             {
-                var proxy = new PizzaServiceClient("NetTcpBinding_IPizzaService");
+                //var proxy = new PizzaServiceClient("NetTcpBinding_IPizzaService");
+                var proxy = new PizzaServiceProxy("NetTcpBinding_IPizzaService");
                 try
                 {
                     proxy.SubmitOrder(_currentOrder);
@@ -111,7 +112,8 @@ namespace PizzaDelivery.Client
         }
         private async void LoadProductsAndCustomers()
         {
-            var proxy = new PizzaServiceClient("NetTcpBinding_IPizzaService");            
+            //var proxy = new PizzaServiceClient("NetTcpBinding_IPizzaService");
+            var proxy = new PizzaServiceProxy("NetTcpBinding_IPizzaService");
             try
             {
                 Products = await proxy.GetProductsAsync();
