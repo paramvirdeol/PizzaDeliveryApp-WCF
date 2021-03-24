@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Prism, Version=8.0.0.1909, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+      <HintPath>..\packages\Prism.Core.8.0.0.1909\lib\net47\Prism.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Runtime.Serialization" />
@@ -76,6 +79,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainWindowViewModel.cs" />
+    <Compile Include="OrderItemModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -103,6 +108,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\PizzaServices\PizzaService.wsdl" />
+    <None Include="packages.config" />
     <None Include="Properties\DataSources\PizzaDelivery.Entities.Customer.datasource" />
     <None Include="Properties\DataSources\PizzaDelivery.Entities.Product.datasource" />
     <None Include="Properties\Settings.settings">
