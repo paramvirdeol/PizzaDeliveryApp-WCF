@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{7332
 		DbSetup.sql = DbSetup.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaDelivery.SelfHost", "PizzaDelivery.SelfHost\PizzaDelivery.SelfHost.csproj", "{C564D79F-7AE1-4C6E-87E5-09EAAAFBA8A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{8074C536-83CC-4E7D-81D0-83C2D9F3C350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8074C536-83CC-4E7D-81D0-83C2D9F3C350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8074C536-83CC-4E7D-81D0-83C2D9F3C350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C564D79F-7AE1-4C6E-87E5-09EAAAFBA8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C564D79F-7AE1-4C6E-87E5-09EAAAFBA8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C564D79F-7AE1-4C6E-87E5-09EAAAFBA8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C564D79F-7AE1-4C6E-87E5-09EAAAFBA8A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
